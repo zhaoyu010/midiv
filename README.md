@@ -1,4 +1,5 @@
 from PIL import Image
+
 from src.midi_tempo_tools import (
     get_midi_bpm,
     get_all_tempo_changes,
@@ -7,7 +8,9 @@ from src.midi_tempo_tools import (
     change_midi_bpm
 )
 print("how to use")
+
 bpm1=get_midi_bpm("test.mid")
+
 print("this is a bpm from hand tempo")
 print(bpm1)
 print("but midi will change in some time ,we must calculate")
